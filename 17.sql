@@ -1,0 +1,1 @@
+select heading, ts_headline('english',body,to_tsquery('wizz & ryanair')) from articles
